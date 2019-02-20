@@ -8,6 +8,8 @@ All database adapters implement a common interface for initialization, paginatio
 
 Returns a new service instance initialized with the given options.
 
+Feathers adapters can [found here](https://docs.feathersjs.com/api/databases/adapters.html).
+
 ```js
 const service = require('feathers-<adaptername>');
 
